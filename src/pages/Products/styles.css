@@ -3,8 +3,9 @@
     display: none;
   }
 
-  .buttonPrint {
+  button {
     display: none;
+    color: #fff;
   }
   table td:last-child {
     display: none;
