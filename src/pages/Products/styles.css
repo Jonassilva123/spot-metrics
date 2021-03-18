@@ -1,0 +1,92 @@
+@media print {
+  .title img {
+    display: none;
+  }
+
+  .buttonPrint {
+    display: none;
+  }
+  table td:last-child {
+    display: none;
+  }
+  table th:last-child {
+    display: none;
+    font-size: 10rem;
+  }
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+}
+
+.products > div {
+  display: flex;
+  padding: 2rem 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.products div h1 {
+  font-size: 2.25rem;
+  color: #555;
+}
+
+.products div img {
+  width: 150px;
+  height: 150px;
+}
+
+.products table {
+  border-collapse: collapse;
+  margin: 2rem 0;
+  font-size: 1rem;
+  border-bottom: 2px solid #8f8f8f;
+  width: 700px;
+}
+
+.products table thead {
+  background-color: #8f8f8f;
+  color: #fff;
+  text-align: left;
+  font-weight: 600;
+}
+
+.products table th,
+.products table td {
+  border: 1px solid #8f8f8f;
+  padding-left: 0.5rem;
+}
+
+.products table td:last-child button {
+  padding: 0 0.5rem;
+  margin: 0.25rem;
+  background-color: transparent;
+  color: #8f8f8f;
+}
+
+.products table tr {
+  border-bottom: 1px solid #8f8f8f;
+}
+
+.products button {
+  padding: 0.5rem 2rem;
+  border: none;
+  background-color: #a9a9a9;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.2;
+}
+.products button:hover {
+  background-color: #8f8f8f;
+  color: #fff;
+}

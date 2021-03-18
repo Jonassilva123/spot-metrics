@@ -1,0 +1,51 @@
+.container {
+  width: 1040px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 720px;
+  }
+
+  .container .home form div.inputArea {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 452px) {
+  .container {
+    width: 100%;
+  }
+  .container img {
+    display: none;
+  }
+
+  .container section {
+  }
+
+  .container .products table {
+    width: 300px;
+    font-size: 0.75rem;
+  }
+
+  .container .home form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+  }
+  .container .home .title h1 {
+    text-align: center;
+  }
+  .container .home form div.inputArea,
+  .container .home form div.inputArea div.buttonArea {
+    grid-template-columns: 1fr;
+  }
+  .container .home form div.inputArea div.inputGroup {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+}

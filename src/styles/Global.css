@@ -1,0 +1,11 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f2ef;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}

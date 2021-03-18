@@ -1,0 +1,123 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.home div.title > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+}
+.title h1 {
+  text-align: center;
+}
+
+.home > div {
+  display: flex;
+  padding: 2rem 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.home div h1 {
+  font-size: 2.25rem;
+  color: #555;
+}
+
+.home div img {
+  width: 150px;
+  height: 150px;
+}
+
+.home form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.home form div.inputArea {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 2rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.home form div.inputArea div.inputGroup {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.home form div.inputArea div.inputGroup input {
+  margin-right: 0.5rem;
+  flex: 1;
+}
+
+.home form div.inputArea div.inputGroup button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: red;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.home form div.inputArea div.inputGroup {
+  display: flex;
+}
+
+.home form div.inputArea input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.home form div.inputArea div.buttonArea {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.home form div.inputArea div.buttonArea button:first-child {
+  padding: 0.5rem 2rem;
+  border: none;
+  background-color: #a9a9a9;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: background-color 0.2;
+}
+.home form div.inputArea div.buttonArea button:first-child:hover {
+  background-color: #8f8f8f;
+  color: #fff;
+}
+
+.home form div.inputArea div.buttonArea button:last-child {
+  padding: 0.5rem 2rem;
+  border: none;
+  background-color: #4040ff;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: background-color 0.2;
+}
+
+.home form div.inputArea div.buttonArea button:last-child:hover {
+  background-color: #1919e6;
+}
