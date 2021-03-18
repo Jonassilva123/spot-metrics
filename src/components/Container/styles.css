@@ -4,6 +4,16 @@
   height: 100%;
 }
 
+@media (max-width: 1040px) {
+  .container {
+    width: 900px;
+  }
+
+  .container .home form div.inputArea {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 768px) {
   .container {
     width: 720px;
@@ -20,9 +30,6 @@
   }
   .container img {
     display: none;
-  }
-
-  .container section {
   }
 
   .container .products table {
